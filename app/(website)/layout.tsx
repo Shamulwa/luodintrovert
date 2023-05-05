@@ -2,6 +2,7 @@ import { getSettings } from "@/lib/sanity/client";
 import Footer from "@/components/footer";
 import { urlForImage } from "@/lib/sanity/image";
 import Navbar from "@/components/navbar";
+import NavbarAlt from "@/components/navbaralt";
 
 export async function sharedMetaData(params) {
   const settings = await getSettings();
@@ -11,14 +12,14 @@ export async function sharedMetaData(params) {
     title: {
       default:
         settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
-      template: "%s | Stablo"
+        "luodintrovert - The official blog webpage",
+      template: "%s | luodintrovert"
     },
     description:
       settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
-    keywords: ["Next.js", "Sanity", "Tailwind CSS"],
-    authors: [{ name: "Surjith" }],
+      "luodintrovert - The official blog webpage",
+    keywords: ["Introvert", "Travel", "Adventure"],
+    authors: [{ name: "Frank" }],
     canonical: settings?.url,
     openGraph: {
       images: [
@@ -32,7 +33,7 @@ export async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "luodintrovert Blog",
       card: "summary_large_image"
     },
     robots: {
@@ -50,7 +51,7 @@ export default async function Layout({ children, params }) {
   const settings = await getSettings();
   return (
     <>
-      <Navbar {...settings} />
+      <NavbarAlt {...settings} />
 
       <div>{children}</div>
 
