@@ -2,7 +2,7 @@ import Container from "@/components/container";
 import ThemeSwitch from "@/components/themeSwitch";
 import Image from "next/image";
 import { myLoader } from "@/utils/all";
-import LuodIntrovert from "../public/img/vercel.svg";
+import LuodIntrovert from "../public/img/logo-white.svg";
 
 export default function Footer(props) {
   return (
@@ -27,26 +27,17 @@ export default function Footer(props) {
           </a>
         </span>
         <span>&middot;</span>
-        <span>
-          {" "}
-          <a
-            href="https://github.com/web3templates/stablo"
-            rel="noopener"
-            target="_blank">
-            Github
-          </a>
-        </span>
       </div>
       <div className="mt-2 flex items-center justify-between">
         <div className="mt-5">
           <a
-            href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
+            href="https://luodintrovert.co.ke"
             target="_blank"
             rel="noopener"
             className="relative block w-44">
             <Image
               src={LuodIntrovert}
-              alt="Powered by Vercel"
+              alt="website by Sham & Freezy"
               unoptimized={true}
               width="150"
               height="25"
