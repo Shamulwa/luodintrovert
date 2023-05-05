@@ -10,7 +10,7 @@ export default function About({ authors, settings }) {
         About
       </h1>
       <div className="text-center">
-        <p className="text-lg">We are a small passionate team.</p>
+        <p className="text-lg">Welcome to my World.</p>
       </div>
 
       <div className="grid grid-cols-3 gap-5 mt-6 mb-16 md:mt-16 md:mb-32 md:gap-16">
@@ -36,18 +36,16 @@ export default function About({ authors, settings }) {
 
       <div className="mx-auto prose text-center dark:prose-invert mt-14">
         <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
+        My name Is Mugai Chege, a passionate writer and introvert who loves to express himself through words. Writing has been my escape, and through my blog, I hope to create a safe space for introverts like me to share their thoughts and feelings.
         </p>
         <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
+        My writing focuses on various topics, from mental health and self-care to personal growth and relationships. With each post, I hope to inspire and encourage my readers to embrace their unique selves and live life on their own terms.
         </p>
         <p>
-          <Link href="/contact">Get in touch</Link>
+        When I'm not writing, you can find me curled up with a good book or exploring the great outdoors. If you'd like to connect with me or have any questions, feel free to reach out!
+        </p>
+        <p>
+        <Link href="/contact">Get in touch</Link>
         </p>
       </div>
     </Container>
