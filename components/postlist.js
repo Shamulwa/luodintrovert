@@ -116,7 +116,7 @@ export default function PostList({
 
             <div className="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400">
               <Link
-                href={`/author/${post.author.slug.current}`}
+                href={`/about`}
                 legacyBehavior>
                 <div className="flex items-center gap-3">
                   <div className="relative h-5 w-5 flex-shrink-0">

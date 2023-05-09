@@ -16,7 +16,7 @@ export default function Footer(props) {
           {" "}
           Website by{" "}
           <a
-            href="https://luodintrovert.co.ke"
+            href=""
             rel="noopener"
             target="_blank">
             Sham & Freezy

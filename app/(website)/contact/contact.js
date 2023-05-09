@@ -49,16 +49,16 @@ export default function Contact({ settings }) {
         Contact
       </h1>
       <div className="text-center">
-        <p className="text-lg">We are a here to help.</p>
+        <p className="text-lg">Here to help.</p>
       </div>
 
       <div className="grid my-10 md:grid-cols-2">
         <div className="my-10">
           <h2 className="text-2xl font-semibold dark:text-white">
-            Contact The luodintrovert Author
+            Contact Me
           </h2>
           <p className="max-w-sm mt-5">
-            Have something to say? We are here to help. Fill up the
+            Have something to say? Am here to help. Fill up the
             form or send email or call phone.
           </p>
 
