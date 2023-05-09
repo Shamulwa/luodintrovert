@@ -114,11 +114,11 @@ export default function NavbarAlt(props) {
                       </>
                     ))}
                   </div>
-                  <div className="hidden lg:block">
+                  {/* <div className="hidden lg:block">
                     <form onSubmit={handleSearch}>
                       <SearchInput placeholder="Search Blog" />
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <Disclosure.Panel>
@@ -144,11 +144,11 @@ export default function NavbarAlt(props) {
                       )}
                     </>
                   ))}
-                  <div className="mt-2 px-5">
+                  {/* <div className="mt-2 px-5">
                     <form onSubmit={handleSearch}>
                       <SearchInput placeholder="Search Blog" />
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </Disclosure.Panel>
             </>
