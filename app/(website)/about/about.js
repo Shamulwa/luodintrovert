@@ -20,7 +20,7 @@ export default function About({ authors, settings }) {
             <div
               key={author._id}
               className="relative overflow-hidden rounded-md aspect-square odd:translate-y-10 odd:md:translate-y-16">
-              <Link href={`/author/${author.slug}`}>
+              <Link href={`/about`}>
                 <Image
                   src={imageProps.src}
                   alt={author.name || " "}
