@@ -115,7 +115,7 @@ export default function NavbarAlt(props) {
                     ))}
                   </div>
                   <div className="hidden lg:block">
-                    <form action="/search" method="GET">
+                    <form onSubmit={handleSearch}>
                       <SearchInput placeholder="Search Blog" />
                     </form>
                   </div>
@@ -145,7 +145,7 @@ export default function NavbarAlt(props) {
                     </>
                   ))}
                   <div className="mt-2 px-5">
-                    <form action="/search" method="GET">
+                    <form onSubmit={handleSearch}>
                       <SearchInput placeholder="Search Blog" />
                     </form>
                   </div>
@@ -157,6 +157,11 @@ export default function NavbarAlt(props) {
       </nav>
     </Container>
   );
+}
+
+function handleSearch(event) {
+  event.preventDefault();
+  // Do nothing
 }
 
 const DropdownMenu = ({ menu, items, mobile }) => {

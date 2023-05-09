@@ -30,7 +30,7 @@ export default function Contact({ settings }) {
     access_key: apiKey,
     settings: {
       from_name: "luodintrovert Blog",
-      subject: "New Contact Message from luodintrovert Blog"
+      subject: "New Message from luodintrovert Blog"
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);

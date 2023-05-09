@@ -15,10 +15,6 @@ export default function Footer(props) {
         <span>
           {" "}
           Website by{" "}
-          {/*  // ** 🙏  Can I ask you a favor? 🙏 **
-            // Please do not remove the below link.
-           // It helps us to grow & continue our work. Thank you.
-          // OR Purchase PRO version for commercial license.  */}
           <a
             href="https://luodintrovert.co.ke"
             rel="noopener"
