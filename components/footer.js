@@ -19,7 +19,7 @@ export default function Footer(props) {
             href=""
             rel="noopener"
             target="_blank">
-            Sham & Freezy
+            webmeka
           </a>
         </span>
         <span>&middot;</span>
